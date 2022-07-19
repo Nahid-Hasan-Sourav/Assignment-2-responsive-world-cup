@@ -1,3 +1,22 @@
 @media(max-width:688px){
-    
+    .header-banner-part{
+        flex-direction: column;
+    }
+
+    .header-banner-part .header-banner-part-left-text .header-banner-part-left-inner-text{
+        text-align: center;
+    }
+    .header-banner-part .header-banner-part-left-text .header-banner-part-left-inner-text h1{
+        font-size: 30px;
+        line-height: 43px;
+        
+    }
+}
+
+@media (min-width:688px) and (max-width:992px){
+    .header-banner-part .header-banner-part-left-text .header-banner-part-left-inner-text h1{
+       
+        line-height:55px;
+       
+    }
 }
