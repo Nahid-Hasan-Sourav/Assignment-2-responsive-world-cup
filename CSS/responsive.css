@@ -50,6 +50,27 @@
 
 }
 
+.footer-menu{
+    flex-direction: column;
+
+  }
+  .footer-menu-four{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-menu-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-menu a{
+    margin: 10px 0px;
+    
+  }
+
+
 }
 
 @media (min-width:688px) and (max-width:992px){
@@ -100,5 +121,18 @@
     grid-template-columns: repeat(2,1fr);
     grid-gap: 25px;
 
+}
+
+.footer-menu{
+    flex-direction: column;
+
+  }
+  .footer-menu a{
+    margin: 0px 5px;
+    
+  }
+  .footer-menu .footer-menu-two{
+   text-align: center;
+   margin-top: 10px
 }
 }
