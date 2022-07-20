@@ -6,20 +6,18 @@ COMMON STYLE PART FOR ALL DEVICES START HERE
 ...........................................
  */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-    width:90%;
-    margin: 0 5%;
-    /* border: 1px solid; */
-    
-    
+.container {
+  width: 90%;
+  margin: 0 5%;
+  /* border: 1px solid; */
 }
-body{
-    /* padding:10px 5px; */
+body {
+  /* padding:10px 5px; */
 }
 /* 
 ...........................................
@@ -29,7 +27,7 @@ COMMON STYLE PART FOR ALL DEVICES END HERE
 ...........................................
  */
 
- /* 
+/* 
 ...........................................
 ...........................................
 HEADER SECTION BANNER PART STYLE START HERE
@@ -37,131 +35,128 @@ HEADER SECTION BANNER PART STYLE START HERE
 ...........................................
   */
 
-#header-banner-part{
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-
+#header-banner-part {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
 }
-.header-container-border-radius{
-    border-radius: 30px;
-   
-    background-color: rgb(6, 6, 6);
+.header-container-border-radius {
+  border-radius: 30px;
+
+  background-color: rgb(6, 6, 6);
+  color: white;
+}
+.header-container-bg-color {
+}
+.header-banner-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.header-banner-part .header-banner-part-left-text {
+  flex-basis: 50%;
+  /* border: 1px solid red; */
+}
+.header-banner-part
+  .header-banner-part-left-text
+  .header-banner-part-left-inner-text
+  h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 65px;
+  margin-top: 25px;
+}
+.header-banner-part
+  .header-banner-part-left-text
+  .header-banner-part-left-inner-text {
+  padding: 0px 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+.header-banner-part
+  .header-banner-part-left-text
+  .header-banner-part-left-inner-text
+  p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px 0px;
+  line-height: 24px;
+}
+.header-banner-part
+  .header-banner-part-left-text
+  .header-banner-part-left-inner-text
+  .banner-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  background-color: #1f69e1;
+  /* background-color: #DD0000; */
+  width: 160px;
+  padding: 12px 12px;
+  border-radius: 5px;
+  margin: 10px 0px 30px 0px;
+  border: none;
+  animation-name: color-change;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+.header-banner-part
+  .header-banner-part-left-text
+  .header-banner-part-left-inner-text
+  .banner-btn
+  .banner-btn-icon {
+  margin: 0px 2px 0px 5px;
+}
+.header-banner-part
+  .header-banner-part-left-text
+  .header-banner-part-left-inner-text
+  .banner-btn
+  .banner-btn-icon
+  i {
+  color: rgb(255, 255, 255);
+
+  animation-name: color-change;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes color-change {
+  0% {
     color: white;
-}
-.header-container-bg-color{
-   
-    
-    
-}
-.header-banner-part{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-.header-banner-part .header-banner-part-left-text{
-    flex-basis: 50%;
-    /* border: 1px solid red; */
-}
-.header-banner-part .header-banner-part-left-text 
-.header-banner-part-left-inner-text h1{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size:60px;
-    line-height:65px;
-    margin-top: 25px;
-}
-.header-banner-part .header-banner-part-left-text 
-.header-banner-part-left-inner-text{
-    padding: 0px 15px;
-    width: 80%;
-    margin: 0 auto;
-    
-
-}
-.header-banner-part .header-banner-part-left-text 
-.header-banner-part-left-inner-text p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    margin: 10px 0px;
-    line-height: 24px;
-}
-.header-banner-part .header-banner-part-left-text 
-.header-banner-part-left-inner-text 
-.banner-btn{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+  }
+  25% {
+    color: red;
+  }
+  75% {
+    color: red;
+  }
+  85% {
+    color: red;
+  }
+  90% {
     color: white;
-    background-color: #1f69e1;
-    /* background-color: #DD0000; */
-    width: 160px;   
-    padding: 12px 12px;
-    border-radius: 5px;
-    margin: 10px 0px 30px 0px;
-    border: none;
-    animation-name: color-change;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    
+  }
+  100% {
+    color: white;
+  }
 }
-.header-banner-part .header-banner-part-left-text 
-.header-banner-part-left-inner-text 
-.banner-btn
-.banner-btn-icon{
-    margin: 0px 2px 0px 5px;
-    
-    
-}
-.header-banner-part .header-banner-part-left-text 
-.header-banner-part-left-inner-text 
-.banner-btn
-.banner-btn-icon i{
-   color: rgb(255, 255, 255);
-    
-    animation-name: color-change;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-
-}
-
-@keyframes color-change{
-    0%{
-        color: white;
-    }
-    25%{
-        color: red;
-    }
-    75%{
-        color:red;
-    }
-    85%{
-        color:red;
-    }
-    90%{
-        color: white;
-    }
-    100%{
-        color: white;
-    }
-}
-.header-banner-part .header-banner-part-right-img{
-    flex-basis: 50%;
-    /* border: 1px solid red; */
-    padding:25px 40px 0px 40px;
-    /* display: flex;
+.header-banner-part .header-banner-part-right-img {
+  flex-basis: 50%;
+  /* border: 1px solid red; */
+  padding: 25px 40px 0px 40px;
+  /* display: flex;
     justify-content: flex-end;
     padding: 0px;
     align-items: flex-end; */
-    
 }
-.header-banner-part .header-banner-part-right-img img{
-    width: 100%;
-    /* height: 400px; */
-    
+.header-banner-part .header-banner-part-right-img img {
+  width: 100%;
+  /* height: 400px; */
 }
 
 /* 
@@ -172,7 +167,6 @@ HEADER SECTION BANNER PART STYLE END HERE
 ...........................................
   */
 
-
 /* 
 ...........................................
 ...........................................
@@ -181,69 +175,68 @@ SECOND SECTION BLOG PART STYLE START HERE
 ...........................................
   */
 
-#secend-section-blog{
-    width:100%;
-    /* color: white; */
+#secend-section-blog {
+  width: 100%;
+  /* color: white; */
 }
-.secend-section-blog{
-    display: flex;
-    margin-top: 50px;
-    margin-bottom:60px;
+.secend-section-blog {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
-.secend-section-blog-left-side{
-    width: 27%; 
-    margin-right: 1%;
-    height: 300px;
-    /* border: 1px solid red; */
-    background-color: black;
-    border-radius: 8px;
-    
+.secend-section-blog-left-side {
+  width: 27%;
+  margin-right: 1%;
+  height: 300px;
+  /* border: 1px solid red; */
+  background-color: black;
+  border-radius: 8px;
 }
-.secend-section-blog-left-side .position-fixed{
-   width: 100%;
-   height: 100%;
-   /* position: fixed;
+.secend-section-blog-left-side .position-fixed {
+  width: 100%;
+  height: 100%;
+  /* position: fixed;
    position: fixed;
     top: 67px;
     left: -403px; */
-   
+}
+.secend-section-blog-left-side .secend-section-blog-left-side-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 10px;
+}
+.secend-section-blog-left-side .secend-section-blog-left-side-menu a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: white;
+  margin: 15px 0px;
+  width: 200px;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 5px;
 }
 .secend-section-blog-left-side
-.secend-section-blog-left-side-menu{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    padding: 10px;
+  .secend-section-blog-left-side-menu
+  .active-red-color-blog {
+  background-color: #dd0000;
+  color: white;
 }
 .secend-section-blog-left-side
-.secend-section-blog-left-side-menu a{
-    text-decoration: none;
-    color:black;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size:18px;
-    background-color: white;
-    margin: 15px 0px;
-    width: 200px;
-    text-align: center;
-    padding: 10px 12px;
-    border-radius: 5px;
-    
-}
-.secend-section-blog-left-side
-.secend-section-blog-left-side-menu
-.active-red-color-blog{
-    background-color: #DD0000;
+  .secend-section-blog-left-side-menu .all-group{
+    background-color: #dd0000;
     color: white;
 }
 .secend-section-blog-left-side
-.secend-section-blog-left-side-menu
-.upcoming-match{
-    background-color: #DD0000;
-    color: white;
+  .secend-section-blog-left-side-menu
+  .upcoming-match {
+  background-color: #dd0000;
+  color: white;
 }
 /* .secend-section-blog-left-side
 .secend-section-blog-left-side-menu
@@ -257,97 +250,88 @@ SECOND SECTION BLOG PART STYLE START HERE
     background-color:white;
     color:black;
 } */
-.secend-section-blog-right-side{
-    width: 72%;
-    /* border: 1px solid red; */
-    padding: 0px 7.5px 7.5px 7.5px;
-   
+.secend-section-blog-right-side {
+  width: 72%;
+  /* border: 1px solid red; */
+  padding: 0px 7.5px 7.5px 7.5px;
 }
-.secend-section-blog-right-side-all-card{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 20px 15px;
-
+.secend-section-blog-right-side-all-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px 15px;
 }
-article{
-    border: 1px solid rgb(227, 224, 224);
-    border-radius: 9px;
-    /* box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px; */
-    box-shadow: 0px 5.342289924621582px 13.35572338104248px 0px #0000000d;
+article {
+  border: 1px solid rgb(227, 224, 224);
+  border-radius: 9px;
+  /* box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px; */
+  box-shadow: 0px 5.342289924621582px 13.35572338104248px 0px #0000000d;
 }
-article .card-image img{
-    width:100%;
-    
+article .card-image img {
+  width: 100%;
 }
-article .card-details{
-    padding: 0px 10px;
-    margin-top: 15px;
+article .card-details {
+  padding: 0px 10px;
+  margin-top: 15px;
 }
-article .card-details .tranfer-btn{
-    padding: 0px 10px;
-    width: 88px;
-    padding: 3px 6px;
-    border-radius: 5px;
-    border: 1px solid black;
-    margin: 5px 0px 10px 0px;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+article .card-details .tranfer-btn {
+  padding: 0px 10px;
+  width: 88px;
+  padding: 3px 6px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 5px 0px 10px 0px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
-article .card-details h3{
-    margin:5px 0px 15px;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+article .card-details h3 {
+  margin: 5px 0px 15px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
-article .card-details .card-details-icon{
-    margin-bottom: 20px;
+article .card-details .card-details-icon {
+  margin-bottom: 20px;
 }
 article .card-details .card-details-icon span,i{
-   
-    display: inline-block;
-}
-article .card-details .card-details-icon .clock-time{
-    margin-right: 20px;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    
-}
-article .card-details .card-details-icon .clock-time .hour-time{
-    padding-left:5px;
-}
-article .card-details .card-details-icon .comment .comment-number{
-    padding-left:5px;
-}
-article .card-details .card-details-icon .comment{
-    
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+  display: inline-block;
 }
 
-.secend-section-blog-right-side
-#view-all-btn{
-     
-    display: none;
+article .card-details .card-details-icon .clock-time {
+  margin-right: 20px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  display: inline-block;
+}
+article .card-details .card-details-icon .clock-time .hour-time {
+  padding-left: 5px;
+}
+article .card-details .card-details-icon .comment .comment-number {
+  padding-left: 5px;
+}
+article .card-details .card-details-icon .comment {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
-.secend-section-blog-right-side
-.view-all-btn{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: white;
-    background-color: #DD0000;
-    width: 149px;   
-    padding: 12px 12px;
-    border-radius: 5px;
-    margin: 10px 0px;
-    border: none;
-    
+.secend-section-blog-right-side #view-all-btn {
+  display: none;
 }
 
+.secend-section-blog-right-side .view-all-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  background-color: #dd0000;
+  width: 149px;
+  padding: 12px 12px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  border: none;
+}
 
 /* 
 ......................................
@@ -357,71 +341,65 @@ UPCOMING BLOG SECTION STYLE START HERE
 ......................................
 */
 .secend-section-blog-right-side-all-card {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
-.secend-section-blog-right-side-all-card 
-.upcoming-blog{
-    padding: 20px 15px;
-}
-
-.secend-section-blog-right-side-all-card 
-article .card-image-upcoming-blog{
- 
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    margin-top: 15px;
- 
-}
-.secend-section-blog-right-side-all-card 
-article .card-image-upcoming-blog img{
- 
-   width:100%;
- 
+.secend-section-blog-right-side-all-card .upcoming-blog {
+  padding: 20px 15px;
 }
 
-.secend-section-blog-right-side-all-card 
-article .card-image-upcoming-blog h3{
- 
-    font-size:25px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    margin: 0px 10px;
- 
+.secend-section-blog-right-side-all-card article .card-image-upcoming-blog {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
 }
-.secend-section-blog-right-side-all-card 
-article .card-image img{
-   
-}
-.secend-section-blog-right-side-all-card 
-.card-details-upcoming-blog {
-    text-align: center;   
-    margin:25px 0px;
-    
- 
-}
-.secend-section-blog-right-side-all-card 
-.card-details-upcoming-blog h4 {
-    text-align: center;     
-    font-size:18px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    
- 
-}
-.secend-section-blog-right-side-all-card 
-.card-details-upcoming-blog .card-details-p{
-    
-    font-size:16px;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 5px;
-    
-   
- 
+.secend-section-blog-right-side-all-card article
+ .card-image-upcoming-blog img {
+  width: 80px;
+  height: 80px;
 }
 
+.secend-section-blog-right-side-all-card article .card-image-upcoming-blog h3 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin: 0px 10px;
+}
+.secend-section-blog-right-side-all-card article .card-image img {
+}
+.secend-section-blog-right-side-all-card .card-details-upcoming-blog {
+  text-align: center;
+  margin: 25px 0px;
+}
+.secend-section-blog-right-side-all-card .card-details-upcoming-blog h4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.secend-section-blog-right-side-all-card
+  .card-details-upcoming-blog
+  .card-details-p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+}
+.secend-section-blog-right-side-all-card
+  .card-details-upcoming-blog
+  .coming {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  
+  background-color: red;
+  color: white;
+  width: 140px;
+  margin: 5px auto;
+  padding: 5px;
+}
 
 /* 
 ......................................
@@ -431,7 +409,6 @@ UPCOMING BLOG SECTION STYLE START HERE
 ......................................
 */
 
-
 /* 
 ...........................................
 ...........................................
@@ -440,7 +417,73 @@ SECOND SECTION BLOG PART STYLE END HERE
 ...........................................
   */
 
+/* 
+...........................................
+...........................................
+FOOTER SECTION  PART STYLE START HERE
+...........................................
+...........................................
+  */
 
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+footer h3 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  padding: 10px 0px;
+  letter-spacing: 8px;
+}
+hr {
+  border: 1px solid rgb(244, 242, 242);
+  border-top: none;
+  width: 80%;
+  margin: 20px auto;
+}
+.footer-menu {
+  width: 80%;
+  padding: 10px 0px 20px 0px;
+  margin: 35px auto 10px auto;
+  display: flex;
+  justify-content: center;
+}
+.footer-menu a {
+  margin: 0px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.footer-menu .footer-menu-four {
+  text-align: center;
+}
+
+.footer-social-link {
+  margin: 0px auto 20px auto;
+  width: 85%;
+  text-align: center;
+  padding: 0px 20px 20px 20px;
+}
+.footer-social-link a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
+  font-weight: 700;
+  border-radius: 50%;
+  margin: 10px 8px;
+  text-align: center;
+  background-color: #183153;
+  color: white;
+}
 
 /* 
 ...........................................
@@ -450,96 +493,6 @@ FOOTER SECTION  PART STYLE START HERE
 ...........................................
   */
 
-  footer{
-    background-color: rgb(0, 0, 0);
-    padding: 20px;
-    
-  }
-  footer h3{
-    text-align: center;
-    color: white;
-    font-size: 45px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 20px;
-    padding: 10px 0px;
-    letter-spacing:8px;
-    
-  }
-  hr{
-    border: 1px solid rgb(244, 242, 242);
-    border-top: none;
-    width: 80%;
-    margin: 20px auto;
-    
-  }
-  .footer-menu{
-    width: 80%;
-    padding: 10px 0px 20px 0px;
-    margin: 35px auto 10px auto;
-    display: flex;
-    justify-content: center;
-
-  }
-  .footer-menu a{
-    margin: 0px 10px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-  }
-  .footer-menu .footer-menu-four{
-   text-align: center;
-  }
-
-
-  .footer-social-link{
-    margin: 0px auto 20px auto;
-    width: 85%;   
-    text-align: center;
-    padding: 0px 20px 20px 20px;
-   
-  }
-  .footer-social-link a{
-   text-decoration: none;
-   display: inline-block;
-   font-size:30px;
-   width: 50px;
-   height: 50px;
-   padding: 10px 10px;
-   font-weight: 700;
-   border-radius: 50%;  
-   margin: 10px 8px;
-   text-align: center;
-   background-color: #183153;
-   color: white;
-   
-   
-  }
- 
-    
-
-  /* 
-...........................................
-...........................................
-FOOTER SECTION  PART STYLE START HERE
-...........................................
-...........................................
-  */
-
-  .upcoming-bg{
-    background-color: #5a2828;
-  }
-
-
-
-
-
-
-
-
-
-
-
-  
+.upcoming-bg {
+  background-color: #5a2828;
+}
