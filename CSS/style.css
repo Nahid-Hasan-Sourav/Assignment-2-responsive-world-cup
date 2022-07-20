@@ -158,9 +158,7 @@ HEADER SECTION BANNER PART STYLE START HERE
   width: 70%;
   text-align: center;
   display: block;
-  /* margin: 0px auto -80px auto; */
   margin: 0 auto;
-  
   /* height: 400px; */
 }
 
@@ -233,7 +231,7 @@ SECOND SECTION BLOG PART STYLE START HERE
   color: white;
 }
 .secend-section-blog-left-side
-  .secend-section-blog-left-side-menu .all-group{
+  .secend-section-blog-left-side-menu.all-group{
     background-color: #dd0000;
     color: white;
 }
