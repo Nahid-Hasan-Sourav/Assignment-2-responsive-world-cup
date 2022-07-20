@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 /* 
 ...........................................
 ...........................................
@@ -342,7 +339,7 @@ article .card-image-upcoming-blog h3{
  
     font-size:25px;
     font-weight: 700;
-    font-family: 'poppins';
+    font-family: 'Poppins', sans-serif;
     margin: 0px 10px;
  
 }
@@ -362,7 +359,7 @@ article .card-image img{
     text-align: center;     
     font-size:16.5px;
     font-weight: 700;
-    font-family: 'poppins';
+    font-family: 'Poppins', sans-serif;
     
  
 }
@@ -371,7 +368,7 @@ article .card-image img{
     
     font-size:14px;
     font-weight: 400;
-    font-family: 'poppins';
+    font-family: 'Poppins', sans-serif;
     margin-top: 5px;
     
    
@@ -496,251 +493,3 @@ FOOTER SECTION  PART STYLE START HERE
 
 
   
-/* RESPONSIVE FOR MOBILE VIEW START HERE */
-@media(max-width:688px){
-    .header-banner-part{
-        flex-direction: column;
-    }
-
-    .header-banner-part .header-banner-part-left-text .header-banner-part-left-inner-text{
-        text-align: center;
-    }
-    .header-banner-part .header-banner-part-left-text .header-banner-part-left-inner-text h1{
-        font-size: 30px;
-        line-height: 43px;
-        
-    }
-
-    /* SECOND SECTION RESPONSIVE */
-    .secend-section-blog-left-side
-    .secend-section-blog-left-side-menu{
-  
-    flex-direction:column;
-    height:100%;
-    justify-content: center;
-    align-items: center;
-    
-}
-.secend-section-blog{
-    flex-direction: column;
- }
- .secend-section-blog-left-side{
-    width:100%; 
-    background-color: white;
-    margin-bottom:20px;
-    
-}
-.secend-section-blog-left-side-menu a{
-   
-    margin: 10px 0px;
-    border: 1px solid rgb(227, 224, 224);
-   
-    
-}
-.secend-section-blog-right-side{
-    width: 100%;
-    
-   
-}
-.secend-section-blog-right-side-all-card{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-gap: 25px;
-
-}
-
-/* 
-UPCOMING BLOG SECTION STYLE START HERE 
-*/
-.secend-section-blog-right-side-all-card 
-article .card-image-upcoming-blog h3{
- 
-    margin: 0px 0px;
-    font-size: 30px;
- 
-}
-
-.secend-section-blog-right-side-all-card 
-.card-details-upcoming-blog h4 {
-       
-    font-size: 28px;
-    font-weight: 700;
-    font-family: 'poppins';
-    
- 
-}
-.secend-section-blog-right-side-all-card 
-.card-details-upcoming-blog .card-details-p{
-    
-    font-size: 20px;
-    font-weight: 400;
-    font-family: 'poppins';
-    margin-top: 5px;
-    
-}
-
-
-/* FOOTER SECTION */
-
-.footer-menu{
-    flex-direction: column;
-
-  }
-  .footer-social-link{
-    
-    width: 100%;   
-  
-   
-  }
-  .footer-menu-four{
-    display: flex;
-    flex-direction: column;
-  }
-  .footer-menu-two{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .footer-menu a{
-    margin: 10px 0px;
-    
-  }
-
-
-}
-
-/* RESPONSIVE FOR TAB VIEW START HERE */
-@media (min-width:688px) and (max-width:992px){
-
-    .header-banner-part 
-    .header-banner-part-left-text 
-    .header-banner-part-left-inner-text h1{
-        line-height:50px;
-        font-size: 40px;      
-    }
-
-    .header-banner-part .header-banner-part-left-text 
-    .header-banner-part-left-inner-text{
-       
-        width: 100%;
-        margin-left: 30px;
-
-    }
-    
-    .header-banner-part .header-banner-part-right-img img{
-        width: 100%;
-        height: 433px;
-        margin-top: 119px;
-        
-    }
-
-    .header-banner-part .header-banner-part-left-text 
-    .header-banner-part-left-inner-text 
-    .banner-btn{
-    
-    margin: 30px 0px;
-   
-    
-}
-
-     /* SECOND SECTION RESPONSIVE */
-    .secend-section-blog{
-       flex-direction: column;
-    }
-    .secend-section-blog-left-side{
-        width:100%; 
-        height:120px;
-        background-color: white;
-        margin-bottom:20px;
-        
-    }
-    .secend-section-blog-left-side
-    .secend-section-blog-left-side-menu{   
-    flex-direction:row;
-    height:100%;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-    .secend-section-blog-left-side
-    .secend-section-blog-left-side-menu a{
-   
-    margin: 0px 10px;
-    border: 1px solid rgb(227, 224, 224);   
-}
-
-
-.secend-section-blog-right-side{
-    width: 100%;   
-}
-.secend-section-blog-right-side-all-card{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 25px;
-
-}
-
-
-    .secend-section-blog-right-side
-    #view-all-btn{
-   
-    width: 100%; 
-    margin-top: 30px;
-    display: block;
-    text-align: center;
-}
-
-/* UPCOMING BLOG STYLE START */
-    /* .secend-section-blog-right-side-all-card 
-    .card-details-upcoming-blog{
-    
-    font-size:20px; 
-} */
-    /* .secend-section-blog-right-side-all-card 
-    .card-details-upcoming-blog p{
-    
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'poppins';
-    margin-top: 5px;
-} */
-
-
-.secend-section-blog-right-side-all-card 
-.card-details-upcoming-blog h4 {
-       
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'poppins';
-    
- 
-}
-.secend-section-blog-right-side-all-card 
-.card-details-upcoming-blog .card-details-p{
-    
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'poppins';
-    margin-top: 5px;
-    
-}
-
-
-
-/* FOOTER SECTION */
-    .footer-menu{
-    flex-direction: column;
-
-  }
-  .footer-menu a{
-    margin: 0px 5px;
-    
-  }
-  .footer-menu .footer-menu-two{
-   text-align: center;
-   margin-top: 10px
-}
-}
