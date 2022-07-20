@@ -59,6 +59,7 @@ HEADER SECTION BANNER PART STYLE START HERE
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .header-banner-part .header-banner-part-left-text{
     flex-basis: 50%;
@@ -99,7 +100,7 @@ HEADER SECTION BANNER PART STYLE START HERE
     width: 149px;   
     padding: 12px 12px;
     border-radius: 5px;
-    margin: 10px 0px;
+    margin: 10px 0px 30px 0px;
     border: none;
     
 }
@@ -295,6 +296,48 @@ article .card-details .card-details-icon .comment{
     border: none;
     
 }
+
+
+/* 
+UPCOMING BLOG SECTION STYLE START HERE 
+*/
+
+.secend-section-blog-right-side-all-card 
+article{
+    padding: 20px 5px;
+}
+
+.secend-section-blog-right-side-all-card 
+article .card-image-upcoming-blog{
+ 
+ display: flex;
+ justify-content:space-around;
+ align-items: center;
+ 
+}
+.secend-section-blog-right-side-all-card 
+article .card-image-upcoming-blog h3{
+ 
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'poppins';
+    margin: 0px 2px;
+ 
+}
+.secend-section-blog-right-side-all-card 
+article .card-image img{
+    width: 100%;
+}
+
+
+
+
+
+
+/* 
+UPCOMING BLOG SECTION STYLE END HERE 
+*/
+
 
 /* 
 ...........................................

@@ -1,3 +1,5 @@
+
+/* RESPONSIVE FOR MOBILE VIEW START HERE */
 @media(max-width:688px){
     .header-banner-part{
         flex-direction: column;
@@ -15,8 +17,7 @@
     /* SECOND SECTION RESPONSIVE */
     .secend-section-blog-left-side
     .secend-section-blog-left-side-menu{
-    
-    
+  
     flex-direction:column;
     height:100%;
     justify-content: center;
@@ -75,6 +76,7 @@
 
 }
 
+/* RESPONSIVE FOR TAB VIEW START HERE */
 @media (min-width:688px) and (max-width:992px){
     .header-banner-part .header-banner-part-left-text 
     .header-banner-part-left-inner-text h1{
@@ -82,6 +84,24 @@
         line-height:55px;
        
     }
+
+    
+    .header-banner-part .header-banner-part-right-img img{
+        width: 100%;
+        height: 433px;
+        margin-top: 119px;
+        
+    }
+
+    .header-banner-part .header-banner-part-left-text 
+    .header-banner-part-left-inner-text 
+    .banner-btn{
+    
+    margin: 30px 0px;
+   
+    
+}
+
      /* SECOND SECTION RESPONSIVE */
     .secend-section-blog{
        flex-direction: column;
