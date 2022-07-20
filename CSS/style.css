@@ -44,6 +44,7 @@ HEADER SECTION BANNER PART STYLE START HERE
 }
 .header-container-border-radius{
     border-radius: 30px;
+   
     background-color: rgb(6, 6, 6);
     color: white;
 }
@@ -93,12 +94,17 @@ HEADER SECTION BANNER PART STYLE START HERE
     font-weight: 700;
     font-size: 16px;
     color: white;
-    background-color: #DD0000;
-    width: 149px;   
+    background-color: #1f69e1;
+    /* background-color: #DD0000; */
+    width: 160px;   
     padding: 12px 12px;
     border-radius: 5px;
     margin: 10px 0px 30px 0px;
     border: none;
+    animation-name: color-change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
     
 }
 .header-banner-part .header-banner-part-left-text 
@@ -106,6 +112,41 @@ HEADER SECTION BANNER PART STYLE START HERE
 .banner-btn
 .banner-btn-icon{
     margin: 0px 2px 0px 5px;
+    
+    
+}
+.header-banner-part .header-banner-part-left-text 
+.header-banner-part-left-inner-text 
+.banner-btn
+.banner-btn-icon i{
+   color: rgb(255, 255, 255);
+    
+    animation-name: color-change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes color-change{
+    0%{
+        color: white;
+    }
+    25%{
+        color: red;
+    }
+    75%{
+        color:red;
+    }
+    85%{
+        color:red;
+    }
+    90%{
+        color: white;
+    }
+    100%{
+        color: white;
+    }
 }
 .header-banner-part .header-banner-part-right-img{
     flex-basis: 50%;
@@ -115,6 +156,7 @@ HEADER SECTION BANNER PART STYLE START HERE
     justify-content: flex-end;
     padding: 0px;
     align-items: flex-end; */
+    
 }
 .header-banner-part .header-banner-part-right-img img{
     width: 100%;
@@ -481,6 +523,9 @@ FOOTER SECTION  PART STYLE START HERE
 ...........................................
   */
 
+  .upcoming-bg{
+    background-color: #5a2828;
+  }
 
 
 
