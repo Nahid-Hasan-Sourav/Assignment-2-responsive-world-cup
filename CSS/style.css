@@ -155,7 +155,12 @@ HEADER SECTION BANNER PART STYLE START HERE
     align-items: flex-end; */
 }
 .header-banner-part .header-banner-part-right-img img {
-  width: 100%;
+  width: 70%;
+  text-align: center;
+  display: block;
+  /* margin: 0px auto -80px auto; */
+  margin: 0 auto;
+  
   /* height: 400px; */
 }
 
