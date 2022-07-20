@@ -405,12 +405,13 @@ UPCOMING BLOG SECTION STYLE START HERE
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   margin-top: 5px;
-  
+  border-radius: 5px;
   background-color: red;
   color: white;
   width: 140px;
   margin: 5px auto;
   padding: 5px;
+  letter-spacing:1.2px;
 }
 
 
@@ -453,7 +454,7 @@ footer h3 {
   letter-spacing: 8px;
 }
 hr {
-  border: 1px solid rgb(244, 242, 242);
+  border: 2px solid rgba(244, 242, 242,0.5);
   border-top: none;
   width: 80%;
   margin: 20px auto;

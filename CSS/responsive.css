@@ -117,7 +117,7 @@ UPCOMING BLOG SECTION STYLE START HERE
     margin-top: 119px;
   }
 
-  .header-banner-part
+   .header-banner-part
     .header-banner-part-left-text
     .header-banner-part-left-inner-text
     .banner-btn {
@@ -162,20 +162,8 @@ UPCOMING BLOG SECTION STYLE START HERE
     text-align: center;
   }
 
-  /* UPCOMING BLOG STYLE START */
-  /* .secend-section-blog-right-side-all-card 
-    .card-details-upcoming-blog{
-    
-    font-size:20px; 
-} */
-  /* .secend-section-blog-right-side-all-card 
-    .card-details-upcoming-blog p{
-    
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'poppins';
-    margin-top: 5px;
-} */
+  /* UPCOMING BLOG END START */
+ 
 
   .secend-section-blog-right-side-all-card .card-details-upcoming-blog h4 {
     font-size: 20px;
