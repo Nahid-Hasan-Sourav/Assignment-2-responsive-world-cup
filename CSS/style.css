@@ -303,11 +303,16 @@ article .card-details h3{
 article .card-details .card-details-icon{
     margin-bottom: 20px;
 }
+article .card-details .card-details-icon span,i{
+   
+    display: inline-block;
+}
 article .card-details .card-details-icon .clock-time{
     margin-right: 20px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    
 }
 article .card-details .card-details-icon .clock-time .hour-time{
     padding-left:5px;
