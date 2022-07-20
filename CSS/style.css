@@ -361,7 +361,9 @@ UPCOMING BLOG SECTION STYLE START HERE
 .upcoming-bg {
     background-color: #5a2828;
   }
-
+.upcoming-match-bg{
+    background-color: #1049a7;
+}
 .secend-section-blog-right-side-all-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
