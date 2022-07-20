@@ -97,13 +97,21 @@ article .card-image-upcoming-blog h3{
 
 /* RESPONSIVE FOR TAB VIEW START HERE */
 @media (min-width:688px) and (max-width:992px){
-    .header-banner-part .header-banner-part-left-text 
-    .header-banner-part-left-inner-text h1{
 
-        line-height:55px;
-       
+    .header-banner-part 
+    .header-banner-part-left-text 
+    .header-banner-part-left-inner-text h1{
+        line-height:50px;
+        font-size: 40px;      
     }
 
+    .header-banner-part .header-banner-part-left-text 
+    .header-banner-part-left-inner-text{
+       
+        width: 100%;
+        margin-left: 30px;
+
+    }
     
     .header-banner-part .header-banner-part-right-img img{
         width: 100%;
@@ -132,10 +140,8 @@ article .card-image-upcoming-blog h3{
         margin-bottom:20px;
         
     }
-.secend-section-blog-left-side
-.secend-section-blog-left-side-menu{
-    
-    
+    .secend-section-blog-left-side
+    .secend-section-blog-left-side-menu{   
     flex-direction:row;
     height:100%;
     justify-content: center;
@@ -143,20 +149,16 @@ article .card-image-upcoming-blog h3{
     
 }
 
-.secend-section-blog-left-side
-.secend-section-blog-left-side-menu a{
+    .secend-section-blog-left-side
+    .secend-section-blog-left-side-menu a{
    
     margin: 0px 10px;
-    border: 1px solid rgb(227, 224, 224);
-   
-    
+    border: 1px solid rgb(227, 224, 224);   
 }
 
 
 .secend-section-blog-right-side{
-    width: 100%;
-    
-   
+    width: 100%;   
 }
 .secend-section-blog-right-side-all-card{
     display: grid;
@@ -166,8 +168,8 @@ article .card-image-upcoming-blog h3{
 }
 
 
-.secend-section-blog-right-side
-#view-all-btn{
+    .secend-section-blog-right-side
+    #view-all-btn{
    
     width: 100%; 
     margin-top: 30px;
@@ -175,8 +177,24 @@ article .card-image-upcoming-blog h3{
     text-align: center;
 }
 
+/* UPCOMING BLOG STYLE START */
+    .secend-section-blog-right-side-all-card 
+    .card-details-upcoming-blog{
+    
+    font-size:20px; 
+}
+    .secend-section-blog-right-side-all-card 
+    .card-details-upcoming-blog p{
+    
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    margin-top: 5px;
+}
+
+
 /* FOOTER SECTION */
-.footer-menu{
+    .footer-menu{
     flex-direction: column;
 
   }
