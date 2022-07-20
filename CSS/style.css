@@ -299,20 +299,28 @@ article .card-details .card-details-icon .comment{
 
 
 /* 
+......................................
+......................................
 UPCOMING BLOG SECTION STYLE START HERE 
+......................................
+......................................
 */
-
+.secend-section-blog-right-side-all-card {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 .secend-section-blog-right-side-all-card 
-article{
-    padding: 20px 5px;
+.upcoming-blog{
+    padding: 20px 15px;
 }
 
 .secend-section-blog-right-side-all-card 
 article .card-image-upcoming-blog{
  
- display: flex;
- justify-content:space-around;
- align-items: center;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 15px;
  
 }
 .secend-section-blog-right-side-all-card 
@@ -321,21 +329,41 @@ article .card-image-upcoming-blog h3{
     font-size: 30px;
     font-weight: 700;
     font-family: 'poppins';
-    margin: 0px 2px;
+    margin: 0px 10px;
  
 }
 .secend-section-blog-right-side-all-card 
 article .card-image img{
-    width: 100%;
+   
+}
+.secend-section-blog-right-side-all-card 
+.card-details-upcoming-blog{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'poppins';
+    margin:25px 0px;
+    
+ 
+}
+.secend-section-blog-right-side-all-card 
+.card-details-upcoming-blog p{
+    
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'poppins';
+    margin-top: 5px;
+   
+ 
 }
 
 
-
-
-
-
 /* 
-UPCOMING BLOG SECTION STYLE END HERE 
+......................................
+......................................
+UPCOMING BLOG SECTION STYLE START HERE 
+......................................
+......................................
 */
 
 

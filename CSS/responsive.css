@@ -51,11 +51,30 @@
     grid-gap: 25px;
 
 }
+
+/* 
+UPCOMING BLOG SECTION STYLE START HERE 
+*/
+.secend-section-blog-right-side-all-card 
+article .card-image-upcoming-blog h3{
+ 
+   
+    margin: 0px 0px;
+ 
+}
+
+
 /* FOOTER SECTION */
 
 .footer-menu{
     flex-direction: column;
 
+  }
+  .footer-social-link{
+    
+    width: 100%;   
+  
+   
   }
   .footer-menu-four{
     display: flex;
