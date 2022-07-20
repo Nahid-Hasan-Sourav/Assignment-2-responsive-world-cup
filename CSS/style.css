@@ -120,7 +120,8 @@ HEADER SECTION BANNER PART STYLE START HERE
   color: rgb(255, 255, 255);
 
   animation-name: color-change;
-  animation-duration: 3s;
+  animation-duration:1s;
+  animation-delay: 0.05s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
 }
@@ -130,19 +131,22 @@ HEADER SECTION BANNER PART STYLE START HERE
     color: white;
   }
   25% {
-    color: red;
+    color: rgb(255, 255, 255);
+  }
+  50%{
+    color: rgb(255, 255, 255);
   }
   75% {
-    color: red;
+    color: white;
   }
   85% {
     color: red;
   }
   90% {
-    color: white;
+    color: rgb(245, 29, 29);
   }
   100% {
-    color: white;
+    color: rgb(255, 255, 255);
   }
 }
 .header-banner-part .header-banner-part-right-img {
