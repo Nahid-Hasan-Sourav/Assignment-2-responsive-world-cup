@@ -157,6 +157,7 @@ SECOND SECTION BLOG PART STYLE START HERE
     height: 300px;
     /* border: 1px solid red; */
     background-color: black;
+    border-radius: 8px;
     
 }
 .secend-section-blog-left-side .position-fixed{
@@ -220,7 +221,7 @@ SECOND SECTION BLOG PART STYLE START HERE
 .secend-section-blog-right-side{
     width: 72%;
     /* border: 1px solid red; */
-    padding: 7.5px 7.5px;
+    padding: 0px 7.5px 7.5px 7.5px;
    
 }
 .secend-section-blog-right-side-all-card{
@@ -269,11 +270,11 @@ article .card-details .card-details-icon .clock-time{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
-article .card-details .card-details-icon .clock-time i{
-    margin-right:5px;
+article .card-details .card-details-icon .clock-time .hour-time{
+    margin-left:5px;
 }
-article .card-details .card-details-icon .comment i{
-    margin-right:5px;
+article .card-details .card-details-icon .comment .comment-number{
+    margin-left:5px;
 }
 article .card-details .card-details-icon .comment{
     
@@ -329,11 +330,17 @@ article .card-image-upcoming-blog{
     margin-top: 15px;
  
 }
+.secend-section-blog-right-side-all-card 
+article .card-image-upcoming-blog img{
+ 
+   width:100%;
+ 
+}
 
 .secend-section-blog-right-side-all-card 
 article .card-image-upcoming-blog h3{
  
-    font-size: 30px;
+    font-size:25px;
     font-weight: 700;
     font-family: 'poppins';
     margin: 0px 10px;
@@ -344,22 +351,29 @@ article .card-image img{
    
 }
 .secend-section-blog-right-side-all-card 
-.card-details-upcoming-blog{
-    text-align: center;
-    font-size: 22px;
-    font-weight: 700;
-    font-family: 'poppins';
+.card-details-upcoming-blog {
+    text-align: center;   
     margin:25px 0px;
     
  
 }
 .secend-section-blog-right-side-all-card 
-.card-details-upcoming-blog p{
+.card-details-upcoming-blog h4 {
+    text-align: center;     
+    font-size:16.5px;
+    font-weight: 700;
+    font-family: 'poppins';
     
-    font-size: 18px;
+ 
+}
+.secend-section-blog-right-side-all-card 
+.card-details-upcoming-blog .card-details-p{
+    
+    font-size:14px;
     font-weight: 400;
     font-family: 'poppins';
     margin-top: 5px;
+    
    
  
 }
@@ -446,7 +460,7 @@ FOOTER SECTION  PART STYLE START HERE
   .footer-social-link a{
    text-decoration: none;
    display: inline-block;
-   font-size: 30px;
+   font-size:30px;
    width: 50px;
    height: 50px;
    padding: 10px 10px;

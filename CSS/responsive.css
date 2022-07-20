@@ -58,9 +58,28 @@ UPCOMING BLOG SECTION STYLE START HERE
 .secend-section-blog-right-side-all-card 
 article .card-image-upcoming-blog h3{
  
-   
     margin: 0px 0px;
+    font-size: 30px;
  
+}
+
+.secend-section-blog-right-side-all-card 
+.card-details-upcoming-blog h4 {
+       
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'poppins';
+    
+ 
+}
+.secend-section-blog-right-side-all-card 
+.card-details-upcoming-blog .card-details-p{
+    
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'poppins';
+    margin-top: 5px;
+    
 }
 
 
@@ -178,19 +197,40 @@ article .card-image-upcoming-blog h3{
 }
 
 /* UPCOMING BLOG STYLE START */
-    .secend-section-blog-right-side-all-card 
+    /* .secend-section-blog-right-side-all-card 
     .card-details-upcoming-blog{
     
     font-size:20px; 
-}
-    .secend-section-blog-right-side-all-card 
+} */
+    /* .secend-section-blog-right-side-all-card 
     .card-details-upcoming-blog p{
     
     font-size: 16px;
     font-weight: 400;
     font-family: 'poppins';
     margin-top: 5px;
+} */
+
+
+.secend-section-blog-right-side-all-card 
+.card-details-upcoming-blog h4 {
+       
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'poppins';
+    
+ 
 }
+.secend-section-blog-right-side-all-card 
+.card-details-upcoming-blog .card-details-p{
+    
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    margin-top: 5px;
+    
+}
+
 
 
 /* FOOTER SECTION */
