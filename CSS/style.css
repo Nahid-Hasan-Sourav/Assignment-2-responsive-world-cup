@@ -69,6 +69,16 @@ HEADER SECTION BANNER PART STYLE START HERE
 }
 .header-banner-part
   .header-banner-part-left-text
+  .header-banner-part-left-inner-text
+  .all-group-h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 50px;
+  margin-top: 25px;
+}
+.header-banner-part
+  .header-banner-part-left-text
   .header-banner-part-left-inner-text {
   padding: 0px 15px;
   width: 80%;

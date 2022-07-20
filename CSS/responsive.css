@@ -13,6 +13,12 @@
     .header-banner-part-left-text
     .header-banner-part-left-inner-text
     h1 {
+    
+  }
+  .header-banner-part
+  .header-banner-part-left-text
+  .header-banner-part-left-inner-text
+   .all-group-h1 {
     font-size: 30px;
     line-height: 43px;
   }
@@ -96,13 +102,18 @@ UPCOMING BLOG SECTION STYLE START HERE
 
 /* RESPONSIVE FOR TAB VIEW START HERE */
 @media (min-width: 689px) and (max-width: 992px) {
+ 
+
   .header-banner-part
-    .header-banner-part-left-text
-    .header-banner-part-left-inner-text
-    h1 {
-    line-height: 50px;
-    font-size: 40px;
-  }
+  .header-banner-part-left-text
+  .header-banner-part-left-inner-text
+  .all-group-h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 25px;
+}
 
   .header-banner-part
     .header-banner-part-left-text
