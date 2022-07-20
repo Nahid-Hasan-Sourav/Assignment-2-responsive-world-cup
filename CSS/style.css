@@ -148,7 +148,7 @@ SECOND SECTION BLOG PART STYLE START HERE
 .secend-section-blog{
     display: flex;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom:60px;
 }
 .secend-section-blog-left-side{
     width: 27%; 
@@ -231,6 +231,8 @@ SECOND SECTION BLOG PART STYLE START HERE
 article{
     border: 1px solid rgb(227, 224, 224);
     border-radius: 9px;
+    /* box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px; */
+    box-shadow: 0px 5.342289924621582px 13.35572338104248px 0px #0000000d;
 }
 article .card-image img{
     width:100%;
@@ -273,6 +275,27 @@ article .card-details .card-details-icon .comment{
     font-weight: 400;
 }
 
+.secend-section-blog-right-side
+#view-all-btn{
+     
+    display: none;
+}
+
+.secend-section-blog-right-side
+.view-all-btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background-color: #DD0000;
+    width: 149px;   
+    padding: 12px 12px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: none;
+    
+}
+
 /* 
 ...........................................
 ...........................................
@@ -282,6 +305,15 @@ SECOND SECTION BLOG PART STYLE END HERE
   */
 
 
+
+/* 
+...........................................
+...........................................
+FOOTER SECTION  PART STYLE START HERE
+...........................................
+...........................................
+  */
+
   footer{
     background-color: rgb(0, 0, 0);
     padding: 20px;
@@ -290,9 +322,12 @@ SECOND SECTION BLOG PART STYLE END HERE
   footer h3{
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 45px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    padding: 10px 0px;
+    letter-spacing:8px;
     
   }
   hr{
@@ -305,7 +340,7 @@ SECOND SECTION BLOG PART STYLE END HERE
   .footer-menu{
     width: 80%;
     padding: 10px 0px 20px 0px;
-    margin: 0 auto;
+    margin: 35px auto 10px auto;
     display: flex;
     justify-content: center;
 
@@ -321,4 +356,38 @@ SECOND SECTION BLOG PART STYLE END HERE
   .footer-menu .footer-menu-four{
    text-align: center;
   }
-  
+
+
+  .footer-social-link{
+    margin: 0px auto 20px auto;
+    width: 85%;   
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+   
+  }
+  .footer-social-link a{
+   text-decoration: none;
+   display: inline-block;
+   font-size: 30px;
+   width: 50px;
+   height: 50px;
+   padding: 10px 10px;
+   font-weight: 700;
+   border-radius: 50%;  
+   margin: 10px 10px;
+   text-align: center;
+   background-color: #183153;
+   color: white;
+   
+   
+  }
+ 
+    
+
+  /* 
+...........................................
+...........................................
+FOOTER SECTION  PART STYLE START HERE
+...........................................
+...........................................
+  */

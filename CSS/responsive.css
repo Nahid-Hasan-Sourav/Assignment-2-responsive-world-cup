@@ -12,6 +12,7 @@
         
     }
 
+    /* SECOND SECTION RESPONSIVE */
     .secend-section-blog-left-side
     .secend-section-blog-left-side-menu{
     
@@ -49,6 +50,7 @@
     grid-gap: 25px;
 
 }
+/* FOOTER SECTION */
 
 .footer-menu{
     flex-direction: column;
@@ -80,6 +82,7 @@
         line-height:55px;
        
     }
+     /* SECOND SECTION RESPONSIVE */
     .secend-section-blog{
        flex-direction: column;
     }
@@ -123,6 +126,17 @@
 
 }
 
+
+.secend-section-blog-right-side
+#view-all-btn{
+   
+    width: 100%; 
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+/* FOOTER SECTION */
 .footer-menu{
     flex-direction: column;
 
